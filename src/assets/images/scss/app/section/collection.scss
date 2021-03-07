@@ -1,0 +1,29 @@
+/*Collections*/
+.am-section-collections {
+  .am-section-title {
+    padding-top: 0;
+  }
+
+  .am-collection {
+    border-radius: 6px;
+    float: left;
+    width: 100%;
+    position: relative;
+    border-radius: 6px;
+    overflow: hidden;
+
+    .ant-image {
+      height: 264px;
+
+      img {
+        height: 100%;
+        border-radius: 6px;
+      }
+    }
+
+
+    .ant-image-mask {
+      height: 100%;
+    }
+  }
+}

@@ -1,0 +1,33 @@
+.am-section-faq {
+  //background: #f1f1f1;
+  .am-faq-wrapper {
+    .am-question {
+    }
+
+    .am-answer {
+    }
+  }
+
+
+  .faq-row-wrapper {
+    background: transparent;
+
+    .faq-row {
+      padding: 1rem;
+
+      .icon-wrapper {
+        svg {
+          fill: var(--arrow-color, #fff);
+        }
+      }
+
+      .row-title {
+      }
+
+      .row-content[aria-expanded=true] {
+        padding-top: 16px;
+        padding-bottom: 16px;
+      }
+    }
+  }
+}

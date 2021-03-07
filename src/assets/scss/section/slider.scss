@@ -1,0 +1,17 @@
+.am-section-slider {
+  margin-top: 70px;
+  height: 700px;
+  width: 100%;
+  background-size: 100%;
+
+  .ant-carousel {
+    padding: 5rem;
+    .slide-wrapper {
+      padding: 4rem 2rem;
+      .slide-heading {
+      }
+      .slide-description {
+      }
+    }
+  }
+}

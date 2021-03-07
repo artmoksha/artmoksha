@@ -1,0 +1,28 @@
+
+@import "custom/fonts/fonts";
+//Core files
+@import "./node_modules/bootstrap/scss/functions";
+@import "./node_modules/bootstrap/scss/variables";
+@import "variables";
+@import "./node_modules/bootstrap/scss/mixins.scss";
+@import "custom/structure/general";
+@import "custom/structure/left-menu";
+@import "custom/structure/topbar";
+@import "custom/structure/footer";
+@import "custom/structure/horizontal-nav";
+@import "custom/structure/layouts";
+@import "custom/pages/authentication";
+//Sections
+@import "section/section";
+@import "section/artwork";
+@import "section/artist";
+@import "section/collection";
+@import "section/vision";
+@import "section/process";
+@import "section/slider";
+@import "section/faq";
+@import "section/subscription";
+
+body {
+  font-family: "Prompt" !important;
+}

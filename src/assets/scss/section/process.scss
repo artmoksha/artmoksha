@@ -1,0 +1,30 @@
+.am-section-process {
+  //background: #f1f1f1;
+  .am-step-single {
+    padding:2rem 4rem;
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+    vertical-align: middle;
+    box-sizing: border-box;
+    //border: 1px solid #d8d8d8;
+    .am-step-title {
+      font-size: 18px;
+      font-weight: 700;
+      margin-top: 15px;
+      margin-bottom: 20px;
+      line-height: 20px;
+    }
+
+    .am-step-description {
+      font-size: 14px;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+
+    img {
+      height: 48px;
+      width: 48px;
+    }
+  }
+}

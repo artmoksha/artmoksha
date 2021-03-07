@@ -1,0 +1,39 @@
+/*Artists*/
+.am-section-artists {
+  .am-artist {
+    background: #fcfcfc;
+    border-radius: 6px;
+    padding: .6rem;
+
+    .artist-image {
+      text-align: center;
+    }
+
+    img {
+      height: 192px;
+      width: 192px;
+      border-radius: 100%;
+      min-height: 192px;
+    }
+
+    h3 {
+      font-size: 18px;
+      margin-top: 32px;
+      margin-bottom: 16px;
+      text-align: center;
+      font-weight: 600;
+    }
+
+    .artist-tagline {
+      text-align: center;
+      margin: 16px 0;
+    }
+
+    .artist-meta {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin: 16px 8px 0px 8px;
+    }
+  }
+}

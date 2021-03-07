@@ -1,0 +1,28 @@
+.am-section-process {
+  .am-step-single {
+    padding: 1rem 8rem;
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+    vertical-align: middle;
+
+    .am-step-title {
+      font-size: 18px;
+      font-weight: 700;
+      margin-top: 15px;
+      margin-bottom: 20px;
+      line-height: 20px;
+    }
+
+    .am-step-description {
+      font-size: 16px;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+
+    img {
+      height: 64px;
+      width: 64px;
+    }
+  }
+}

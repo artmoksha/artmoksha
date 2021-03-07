@@ -1,0 +1,61 @@
+/*
+File: Main Css File
+*/
+//Fonts
+/* 1. Fonts */
+@import "src/assets/scss/custom/fonts/fonts";
+
+//Core files
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "src/assets/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
+
+// Structure
+/* 2. General */
+@import "src/assets/scss/customucture/general";
+/* 3. Left Menu */
+@import "src/assets/scss/customucture/left-menu";
+/* 4. Topbar */
+@import "src/assets/scss/customucture/topbar";
+/* 5. Page Head */
+@import "src/assets/scss/customucture/page-head";
+/* 6. Index */
+@import "src/assets/scss/customucture/footer";
+/* 7. Horizontal Nav */
+@import "src/assets/scss/customucture/horizontal-nav";
+/* 9. Layouts */
+@import "src/assets/scss/customucture/layouts";
+
+//Components
+/* 10. Helper */
+@import "src/assets/scss/customponents/helper";
+/* 11. Social */
+@import "src/assets/scss/customponents/social";
+/* 15. Print */
+@import "src/assets/scss/customponents/print";
+/* 16. Preloader */
+@import "src/assets/scss/customponents/preloader";
+
+// Plugins
+/* 17. Plugins */
+@import "src/assets/scss/customgins/slimscroll";
+@import "src/assets/scss/customgins/react-select";
+@import "src/assets/scss/customgins/bootstrap-touchspin";
+@import "src/assets/scss/customgins/parsley";
+
+//Pages
+/* 23. Authentication */
+@import "src/assets/scss/customes/authentication";
+
+//Sections
+@import "src/assets/scss/sectiontion";
+@import "src/assets/scss/sectionwork";
+@import "src/assets/scss/sectionlection";
+@import "src/assets/scss/sectionist";
+@import "src/assets/scss/sectioncess";
+@import "src/assets/scss/sectionion";
+
+body #root {
+  font-family: Prompt;
+}

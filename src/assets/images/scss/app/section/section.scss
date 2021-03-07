@@ -1,0 +1,21 @@
+.am-section {
+  padding: 48px 0;
+
+  .am-section-title {
+    padding: 48px 0;
+
+    button {
+      float: right;
+      color: rgb(32, 33, 36);
+      position: absolute;
+      right: 0;
+      top: 1rem;
+
+      span {
+        text-decoration: underline;
+        font-size: 18px;
+      }
+    }
+  }
+
+}

@@ -1,0 +1,36 @@
+/*Artwork*/
+.am-section-artwork {
+  .am-artwork-wrapper {
+    padding: 0 1rem;
+
+    .am-artwork {
+      border-radius: 6px 6px 4px 4px;
+
+      h3 {
+        font-size: 18px;
+      }
+
+      .am-artwork-image {
+        max-height: 300px;
+        min-height: 300px;
+        border-radius: 6px;
+        padding: 4px;
+      }
+
+      .artwork-button {
+        height: 100%;
+        border-radius: 5px;
+        width: 100%;
+        background: transparent;
+        border: 1px solid transparent;
+        padding-right: 0;
+
+        span {
+          text-decoration: underline;
+          display: block;
+          float: right;
+        }
+      }
+    }
+  }
+}
