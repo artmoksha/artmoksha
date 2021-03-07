@@ -31,7 +31,7 @@ class HomePage extends React.Component {
             <React.Fragment>
                 { /* preloader */}
                 {this.props.loading && <Loader/>}
-                <SliderComponent title="Slider" description="fsdfkjsdlfkjsldf"/>
+                <SliderComponent title="Slider" description="Slider"/>
                 <Artworks title="Featured Artworks" description="Collect thangka artworks and create your own collection"/>
                 <Collections title="Artmoksha Top Collections"
                              description="Discover your own artwork and create your own collection"
@@ -40,8 +40,8 @@ class HomePage extends React.Component {
                          description="We present the art that never seen before in crypto world"/>
                 <Process title="How it works"
                          description="Create, sell or collect digital items secured with blockchain"/>
-                <WhyMoksha title="Why artmoksha" description="fsdfkjsdlfkjsldf"/>
-                <FAQs title="Frequently Asked Questions" description="fsdfkjsdlfkjsldf"/>
+                <WhyMoksha title="Why artmoksha" description="Why artmoksha"/>
+                <FAQs title="Frequently Asked Questions" description="Frequently Asked Questions"/>
                 <Subscription title="Never Miss an Update"
                               description="Get the latest features plus news, articles and resources, sent straight to your inbox once a month."/>
             </React.Fragment>

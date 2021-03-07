@@ -2,7 +2,7 @@ import React, {Component} from "react";
 import {connect} from 'react-redux';
 import {Link} from 'react-router-dom';
 import {BreadcrumbItem, Container} from 'reactstrap';
-import {Menu, X, Search, Settings, User, HelpCircle, Lock, LogOut} from 'react-feather';
+import {Menu, X, Search, Settings, User, HelpCircle, Lock, LogOut, Anchor} from 'react-feather';
 
 import logo from '../../../../assets/images/logo.png';
 
@@ -50,7 +50,9 @@ class Topbar extends Component {
                         <ul className="navbar-nav flex-row ml-auto d-flex list-unstyled topnav-menu float-right mb-0">
                             <li className="notification-list">
                                 <Link className="btn btn-primary right-bar-toggle button-metamask"
-                                      to="/account/login">Connect</Link>
+                                      to="/account/login">
+                                    Connect Wallet <Anchor style={{height: '12px', width: '12px'}}/>
+                                </Link>
                             </li>
                         </ul>
                     </Container>
