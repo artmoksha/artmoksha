@@ -111,7 +111,7 @@ class Register extends Component {
                                                                     <Mail className="icon-dual" />
                                                                 </span>
                                                             </InputGroupAddon>
-                                                            <AvInput type="email" name="email" id="email" placeholder="hello@coderthemes.com" required />
+                                                            <AvInput type="email" name="email" id="email" placeholder="hello@artmoksha.com" required />
                                                         </InputGroup>
 
                                                         <AvFeedback>This field is invalid</AvFeedback>

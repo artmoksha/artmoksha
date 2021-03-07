@@ -131,7 +131,7 @@ class Login extends Component {
                                                                 </span>
                                                             </InputGroupAddon>
                                                             <AvInput type="text" name="username" id="username"
-                                                                     placeholder="hello@coderthemes.com"
+                                                                     placeholder="hello@artmoksha.com"
                                                                      value={this.state.username} required/>
                                                         </InputGroup>
 
